@@ -1,0 +1,88 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+
+.main-hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: lightgray;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 35px;
+}
+
+
+.main-hero-img-img img {
+    width: 90%;
+}
+
+.main-hero-desc{
+    padding-top: 65px;
+    padding-left: 40px;
+}
+
+.main-hero-desc button {
+    height: 30px;
+    width: 90px;
+}
+
+.last-blogs{
+    text-align: center;
+}
+
+.last-blogs hr{
+    border-color: lightgray;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.last-blogs-list{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.last-blogs-item {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+.last-blogs-item button{
+    height: 30px;
+    width: 90px;    
+}
+
+.last-blogs-item img {
+    width:100%;
+}
+
+footer {
+    height: auto;
+}
+
+.footer-blank{
+    height: 25px;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.footer-black{
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align-last: center;
+    height: 40px;
+}
+
+.footer-black p{
+    font-size: 0.8em;
+    height: 100%;
+    margin-block-start: 0;
+    padding-top: 10px;
+}
