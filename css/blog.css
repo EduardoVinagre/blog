@@ -44,6 +44,10 @@
     align-items: center;;
 }
 
+.blog-contact-item h4 {
+    text-decoration: underline;
+}
+
 .blog-contact-img{
     width: 100%;
 }
