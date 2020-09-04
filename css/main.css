@@ -217,7 +217,7 @@ footer p {
   font-size: 35px;
 }
 
-.contact-main-container{
+.contact-main-container {
   width: 100%;
   min-height: 250px;
   background-color: #e6e9ed;
@@ -225,7 +225,7 @@ footer p {
   padding-bottom: 50px;
 }
 
-.contact-main-container div{
+.contact-main-container div {
   display: inline-block;
   width: 49.5%;
   height: 100%;
@@ -236,11 +236,12 @@ footer p {
   padding-bottom: 5px;
 }
 
-.contact-main-container .contact-left, .contact-right{
+.contact-main-container .contact-left,
+.contact-right {
   text-align: initial;
   margin-top: 85px;
 }
 
 .contact-main-container img {
-width: 100px;
+  width: 100px;
 }
